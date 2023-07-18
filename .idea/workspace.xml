@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45fc60dd-0c41-44b8-aa24-853fb63be492" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pro1000.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pro9498.java" afterDir="false" />
+    <list default="true" id="45fc60dd-0c41-44b8-aa24-853fb63be492" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/pro10926.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pro18108.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pro3003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pro8393.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +47,35 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.pro3003">
+    <configuration name="pro10926" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro10926" />
+      <module name="coding_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pro18108" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro18108" />
+      <module name="coding_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pro3003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro3003" />
+      <module name="coding_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pro8393" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro8393" />
+      <module name="coding_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pro9498" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pro9498" />
       <module name="coding_test" />
@@ -62,6 +85,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pro3003" />
+        <item itemvalue="Application.pro10926" />
+        <item itemvalue="Application.pro18108" />
+        <item itemvalue="Application.pro8393" />
         <item itemvalue="Application.pro9498" />
       </list>
     </recent_temporary>
@@ -74,11 +101,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689578273047</updated>
-      <workItem from="1689578274114" duration="3381000" />
+      <workItem from="1689578274114" duration="6145000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1689603431627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689603431627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
