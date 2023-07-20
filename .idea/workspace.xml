@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45fc60dd-0c41-44b8-aa24-853fb63be492" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/pro25304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pro1271.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +44,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.pro25304">
+  <component name="RunManager" selected="Application.pro1271">
     <configuration name="pro10926" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pro10926" />
+      <module name="coding_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pro1271" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro1271" />
       <module name="coding_test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,20 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pro8393" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pro8393" />
-      <module name="coding_test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pro1271" />
         <item itemvalue="Application.pro25304" />
         <item itemvalue="Application.pro3003" />
         <item itemvalue="Application.pro10926" />
         <item itemvalue="Application.pro18108" />
-        <item itemvalue="Application.pro8393" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689578273047</updated>
-      <workItem from="1689578274114" duration="10919000" />
+      <workItem from="1689578274114" duration="11819000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689603431627</created>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689687015385</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1689763680750</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689763680750</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
