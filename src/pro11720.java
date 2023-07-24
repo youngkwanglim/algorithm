@@ -9,7 +9,7 @@ public class pro11720 {
         int a = sc.nextInt();
         String k = Integer.toString(a);
 
-//        String k = sc.nextLine();
+        String k = sc.nextLine();
         int sum = 0;
 
         for (int i = 0; i < count; i++) {
