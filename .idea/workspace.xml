@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45fc60dd-0c41-44b8-aa24-853fb63be492" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/pro11720.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pro2742.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clear/pro1330.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clear/pro2438.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clear/pro2562.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pro1008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pro2675.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro1000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro10926.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro10926.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro11720.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro11720.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro1271.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro1271.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro18108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro18108.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro2439.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro2439.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro25304.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro25304.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro2742.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro2742.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro3003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro3003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro8393.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro8393.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro9498.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro9498.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,37 +59,37 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.pro11720">
-    <configuration name="pro11720" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pro11720" />
+  <component name="RunManager" selected="Application.pro2675">
+    <configuration name="pro1008" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro1008" />
       <module name="coding_test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pro1271" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pro1271" />
+    <configuration name="pro1330" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clear.pro1330" />
       <module name="coding_test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pro2439" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pro2439" />
+    <configuration name="pro2438" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clear.pro2438" />
       <module name="coding_test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pro25304" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pro25304" />
+    <configuration name="pro2562" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clear.pro2562" />
       <module name="coding_test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pro2742" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pro2742" />
+    <configuration name="pro2675" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro2675" />
       <module name="coding_test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pro11720" />
-        <item itemvalue="Application.pro2742" />
-        <item itemvalue="Application.pro2439" />
-        <item itemvalue="Application.pro1271" />
-        <item itemvalue="Application.pro25304" />
+        <item itemvalue="Application.pro2675" />
+        <item itemvalue="Application.pro2562" />
+        <item itemvalue="Application.pro2438" />
+        <item itemvalue="Application.pro1330" />
+        <item itemvalue="Application.pro1008" />
       </list>
     </recent_temporary>
   </component>
@@ -101,6 +115,10 @@
       <updated>1689578273047</updated>
       <workItem from="1689578274114" duration="14763000" />
       <workItem from="1690119066452" duration="2841000" />
+      <workItem from="1690190898046" duration="32000" />
+      <workItem from="1690366232003" duration="1801000" />
+      <workItem from="1691054450156" duration="825000" />
+      <workItem from="1691055285470" duration="3552000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689603431627</created>
@@ -144,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690121907576</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first commit">
+      <created>1690190916821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690190916821</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,3 +1,5 @@
+package clear;
+
 import java.util.Scanner;
 
 public class pro3003 {
