@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45fc60dd-0c41-44b8-aa24-853fb63be492" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/clear/pro1330.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clear/pro2438.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clear/pro2562.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pro1008.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pro2675.java" afterDir="false" />
+    <list default="true" id="45fc60dd-0c41-44b8-aa24-853fb63be492" name="Changes" comment="ReadyToCodingTest">
+      <change afterPath="$PROJECT_DIR$/src/clear/pro2739.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pro10818.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro1000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro10926.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro10926.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro11720.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro11720.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro1271.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro1271.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro18108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro18108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro2439.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro2439.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro25304.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro25304.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro2742.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro2742.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro3003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro3003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro8393.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro8393.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro9498.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clear/pro9498.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,16 +45,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.pro2675">
-    <configuration name="pro1008" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pro1008" />
-      <module name="coding_test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pro1330" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="clear.pro1330" />
+  <component name="RunManager" selected="Application.pro10818">
+    <configuration name="pro10818" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro10818" />
       <module name="coding_test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,13 +74,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pro2739" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clear.pro2739" />
+      <module name="coding_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pro10818" />
+        <item itemvalue="Application.pro2739" />
         <item itemvalue="Application.pro2675" />
         <item itemvalue="Application.pro2562" />
         <item itemvalue="Application.pro2438" />
-        <item itemvalue="Application.pro1330" />
-        <item itemvalue="Application.pro1008" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +104,8 @@
       <workItem from="1690190898046" duration="32000" />
       <workItem from="1690366232003" duration="1801000" />
       <workItem from="1691054450156" duration="825000" />
-      <workItem from="1691055285470" duration="3552000" />
+      <workItem from="1691055285470" duration="3996000" />
+      <workItem from="1691065703253" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689603431627</created>
@@ -169,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690190916821</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ReadyToCodingTest">
+      <created>1691063297168</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691063297168</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +171,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="ReadyToCodingTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReadyToCodingTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -188,5 +183,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="count" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
