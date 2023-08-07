@@ -1,18 +1,17 @@
-package clear;
-
 import java.util.Scanner;
-public class pro10950 {
+
+public class pro10952 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int count = sc.nextInt();
-        int a, b;
+        int a = 1, b = 1;
 
-        for (int i = 0; i < count; i++) {
+        while (a != 0 & b != 0) {
             a = sc.nextInt();
             b = sc.nextInt();
-            System.out.println(a + b);
+            if (a != 0 & b != 0)
+                System.out.println(a + b);
         }
     }
 }
