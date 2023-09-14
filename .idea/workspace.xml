@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45fc60dd-0c41-44b8-aa24-853fb63be492" name="Changes" comment="ReadyToCodingTest" />
+    <list default="true" id="45fc60dd-0c41-44b8-aa24-853fb63be492" name="Changes" comment="ReadyToCodingTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro1008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro1008.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/study/jpashop/build.gradle&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -42,7 +46,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.pro27866">
+  <component name="RunManager" selected="Application.pro1008">
+    <configuration name="pro1008" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro1008" />
+      <module name="coding_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pro10818" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="clear.pro10818" />
       <module name="coding_test" />
@@ -64,13 +75,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pro2739" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="clear.pro2739" />
-      <module name="coding_test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="pro27866" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pro27866" />
       <module name="coding_test" />
@@ -80,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pro1008" />
         <item itemvalue="Application.pro27866" />
         <item itemvalue="Application.pro10952" />
         <item itemvalue="Application.pro10950" />
         <item itemvalue="Application.pro10818" />
-        <item itemvalue="Application.pro2739" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +109,10 @@
       <workItem from="1691065703253" duration="1303000" />
       <workItem from="1691332052672" duration="1888000" />
       <workItem from="1691504437225" duration="827000" />
+      <workItem from="1691765795100" duration="626000" />
+      <workItem from="1692024213655" duration="24000" />
+      <workItem from="1692169033796" duration="425000" />
+      <workItem from="1694654410110" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689603431627</created>
@@ -190,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691504666552</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ReadyToCodingTest">
+      <created>1691765823895</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691765823895</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ReadyToCodingTest">
+      <created>1692024228573</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692024228573</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
