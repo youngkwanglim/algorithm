@@ -79,7 +79,7 @@
       </method>
     </configuration>
     <configuration name="pro1546" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pro1546" />
+      <option name="MAIN_CLASS_NAME" value="clear.pro1546" />
       <module name="coding_test" />
       <method v="2">
         <option name="Make" enabled="true" />
