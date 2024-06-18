@@ -1,32 +1,32 @@
+import java.io.*;
 import java.util.Scanner;
 
-public class Main {
-
-    public static void main(String[] args) {
+class Main {
+    public static boolean check(int a) {
+        if (a < 2) {
+            return false;
+        } else {
+            for (int i = 2; i * i <= a; i++) {
+                if (a % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
-        int a= sc.nextInt();
-        int[] b = new int[a];
-        for (int i = 0; i < a; i++) {
-            b[i] = sc.nextInt();
-        }
-        int count=0;
-        int check=0;
+        int count = sc.nextInt();
+        int result = 0;
 
-        //소수인 경우
-        for (int i = 0; i < a; i++) {
-            check=0;
-            for (int j = 1; j < b[i]; j++) {
-                if (b[i]!=1 && b[i] % j == 0) {
-                    check++;
-                }
-
-            }
-            if (check == 1) {
-                count++;
+        for (int i = 0; i < count; i++) {
+            int k = sc.nextInt();
+            if (check(k) == true) {
+                result++;
             }
         }
 
-        System.out.println(count);
+        System.out.println(result);
     }
 }
