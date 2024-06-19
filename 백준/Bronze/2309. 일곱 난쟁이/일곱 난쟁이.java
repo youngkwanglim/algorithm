@@ -31,8 +31,8 @@ class Main {
             }
         }
 
-        for (int i = 0; i < 7; i++) {
-            System.out.println(people.get(i));
+        for (int a : people) {
+            System.out.println(a);
         }
     }
 }
