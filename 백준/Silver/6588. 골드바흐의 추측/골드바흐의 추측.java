@@ -1,12 +1,10 @@
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Scanner;
 
-//53분 시작
+// Scanner 사용하면 시간 초과남.
 class Main {
     public static final int MAX = 1000000;
     public static void main(String[] args) throws IOException {
-        //Scanner sc = new Scanner(System.in);
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         boolean[] check = new boolean[MAX + 1];
@@ -32,6 +30,9 @@ class Main {
                     //System.out.println(n + " = " + p + " + " + (n - p));
                     bw.write(n + " = " + p + " + " + (n - p) + "\n");
                     break;
+                }
+                if (i == prime.size() - 1) {
+                    bw.write("Goldbach's conjecture is wrong.\n");
                 }
             }
         }
