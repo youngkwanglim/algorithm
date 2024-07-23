@@ -3,6 +3,7 @@ using namespace std;
 int n, pos;
 string s, input, pre, suf;
 int main(){
+    ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL); 
     cin >> n;
     cin >> s;
     pos = s.find("*");
