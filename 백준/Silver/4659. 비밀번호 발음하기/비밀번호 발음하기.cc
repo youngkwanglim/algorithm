@@ -2,6 +2,14 @@
 using namespace std;
 string s;
 int cnt, cnt_mo;
+
+int check(char c){
+	if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'){
+		return 1;
+	}
+	return 0;
+}
+
 int main(){
 	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 	// 모음 하나 이상
@@ -12,11 +20,7 @@ int main(){
 		cnt = 0;
 		cnt_mo = 0;
 		for (int i = 0; i < s.size(); i++){
-			//cout << s[i]<< " "; 
-			if (s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u'){
-				cnt_mo++;
-				//cout << "모음 있음 ";
-			}
+			if(check(s[i])) cnt_mo++;
 		}
 		//cout << cnt_mo << " ";
 		if (cnt_mo < 1) {
@@ -24,16 +28,16 @@ int main(){
 		}
 		if(s.size() >= 3){
 			for (int i = 0; i < s.size() - 2; i++){
-				if (s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u'){
-					if (s[i + 1] == 'a' || s[i + 1] == 'e' || s[i + 1] == 'i' || s[i + 1] == 'o' || s[i + 1] == 'u'){
-						if (s[i + 2] == 'a' || s[i + 2] == 'e' || s[i + 2] == 'i' || s[i + 2] == 'o' || s[i + 2] == 'u'){
+				if(check(s[i])){
+					if(check(s[i + 1])){
+						if(check(s[i + 2])){
 							cnt++;
 						}
 					}
 				}
 				else{
-					if (s[i + 1] != 'a' && s[i + 1] != 'e' && s[i + 1] != 'i' && s[i + 1] != 'o' && s[i + 1] != 'u'){
-						if (s[i + 2] != 'a' && s[i + 2] != 'e' && s[i + 2] != 'i' && s[i + 2] != 'o' && s[i + 2] != 'u'){
+					if(check(s[i + 1]) == 0){
+						if(check(s[i + 2]) == 0){
 							cnt++;
 						}
 					}
@@ -48,7 +52,7 @@ int main(){
 				}
 			}
 		}
-//		cout << "cnt 갯수 : " << cnt << " ";
+		//cout << "cnt 갯수 : " << cnt << " ";
 		if (cnt == 0) cout << "<" << s << ">" << " is acceptable.\n";
 		else cout << "<" << s << ">" << " is not acceptable.\n";
 		cin >> s;
