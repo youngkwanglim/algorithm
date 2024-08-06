@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;  
-typedef long long ll;
-const ll INF = 1e18;   
-int n, c, a[1004];
+typedef long long ll;   
+int n, c, a[1004], temp;
 vector<pair<int, int>> v; 
 map<int, int> mp, mp_first; 
 bool cmp(pair<int,int> a, pair<int, int> b){
@@ -16,8 +15,8 @@ int main(){
 	cin.tie(NULL); cout.tie(NULL);
 	cin >> n >> c; 
 	for(int i = 0; i < n; i++){
-		cin >> a[i];mp[a[i]]++;
-		if(mp_first[a[i]] == 0) mp_first[a[i]] = i + 1; 
+		cin >> temp;mp[temp]++;
+		if(mp_first[temp] == 0) mp_first[temp] = i + 1; 
 	} 
 	for(auto it : mp){
 		v.push_back({it.second, it.first});
