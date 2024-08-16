@@ -1,39 +1,30 @@
 #include<bits/stdc++.h>
 using namespace std;
-int n, a[50], cut, ret;
-
-void go(int cut){
-	a[cut] = -2;
-	for(int i = 0 ; i < n; i++){
-		if(a[i] == cut) {
-			go(i);
-		}
+int n, r, temp, root;
+vector<int> adj[54];
+int dfs(int here){
+	int ret = 0;
+	int child = 0;
+	for(int there : adj[here]){
+		if(there == r) continue;
+		ret += dfs(there);
+		child++;
 	}
+	if(child == 0) return 1;
+	return ret;
 }
 
 int main(){
 	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 	cin >> n;
-	//fill(a, a + 50, -2);
 	for(int i = 0 ; i < n; i++){
-		cin >> a[i];
+		cin >> temp;
+		if(temp == -1) root = i;
+		else adj[temp].push_back(i);
 	}
-	cin >> cut;
-	go(cut);
-	
-//	for(int i = 0 ; i < n; i++){
-//		cout << a[i] << " ";
-//	}	
-//	cout << '\n';
-
-	// 리프노드 카운트만 하면됨.
-	for(int i = 0 ; i < n; i++){
-		int flag = 0;
-		if(a[i] == -2) continue;
-		for(int j = 0; j < n; j++){
-			if(a[j] == i) flag++;
-		}
-		if(flag == 0) ret++;   
-	}	 
-	cout << ret << '\n';
+	cin >> r;
+	if(r == root){
+		cout << 0 << '\n';
+	}
+	else cout << dfs(root) << '\n';
 }
