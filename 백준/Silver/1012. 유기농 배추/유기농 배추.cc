@@ -17,7 +17,7 @@ void dfs(int y, int x){
 }
 
 int main(){
-	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 	// dfs로 탐색하면서 ret++ 연산으로 계산해주면 될 거 같음
 	cin >> t;
 	for (int j = 0; j < t; j++){
@@ -30,14 +30,12 @@ int main(){
 			cin >> x >> y;
 			a[y][x] = 1;
 		}
-		
 //		for (int h = 0; h < n; h++){
 //			for (int l = 0; l < m; l++){
 //				cout << a[h][l] << " "; 			
 //			}
 //			cout << '\n';
 //		}
-		
 		for (int h = 0; h < n; h++){
 			for (int l = 0; l < m; l++){
 				if (visited[h][l] == 0 && a[h][l] == 1) {
