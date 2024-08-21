@@ -44,8 +44,7 @@ int main(){
 	}
 	
 	//그 후보 갯수만큼 뽑아서 그 치킨집 별로 각 최단거리의 합을 구함
-	vector<pair<int, int>> v;
-	combi(-1, v);
+	combi(-1, special);
 	
 	// 그중 가장 작은 것이 최종 답  
 	cout << ret << '\n';
