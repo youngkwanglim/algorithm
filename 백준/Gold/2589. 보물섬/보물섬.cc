@@ -8,7 +8,6 @@ int dy[] = {0, 1, 0, -1};
 int bfs(int y, int x){
 	queue<pair<int, int>> q;
 	visited[y][x] = 1;
-	//int tmp = 0;
 	q.push({y, x});
 	while(q.size()){
 		tie(y, x) = q.front(); q.pop();
@@ -17,8 +16,7 @@ int bfs(int y, int x){
 			int nx = x + dx[i];
 			if(ny < 0 || ny >= n || nx < 0 || nx >=m || visited[ny][nx]) continue;
 			if(a[ny][nx] == 'W') continue;
-			visited[ny][nx] = visited [y][x]+ 1;
-			//tmp++;
+			visited[ny][nx] = visited[y][x] + 1;
 			q.push({ny, nx});
 		}
 	}
