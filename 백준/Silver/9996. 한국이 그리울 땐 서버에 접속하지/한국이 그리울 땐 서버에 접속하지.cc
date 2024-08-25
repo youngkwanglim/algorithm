@@ -8,7 +8,6 @@ int main(){
     cin >> s;
     pos = s.find("*");
     pre = s.substr(0, pos), suf = s.substr(pos + 1);
-
     for (int i = 0; i < n; i++) {
         cin >> input;
         if (pre.size() + suf.size() <= input.size() && 
@@ -18,6 +17,4 @@ int main(){
         }
         else cout << "NE" << '\n';
     }
-
-    return 0;
 }
