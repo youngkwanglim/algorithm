@@ -12,7 +12,7 @@ int oper(char a, int b, int c){
 void go(int here, int _num){
 	if(here == num.size() - 1){
 		ret = max(ret, _num);
-		return;
+        return;
 	}
 	go(here + 1, oper(oper_str[here], _num, num[here + 1]));
 	
@@ -20,7 +20,6 @@ void go(int here, int _num){
 		int temp = oper(oper_str[here + 1], num[here + 1], num[here + 2]);
 		go(here + 2, oper(oper_str[here], _num, temp));
 	}
-	return;
 }
 int main(){
 	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
