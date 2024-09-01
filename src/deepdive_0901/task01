@@ -1,0 +1,37 @@
+#include <bits/stdc++.h>
+using namespace std;
+char input[100];
+int n1, n2, day, cnt = 1;
+int main() {
+  cin >> n1 >> n2 >> day;
+  while(day + 1 != cnt){
+    // 짝수 날 일때
+    if(cnt % 2 == 0){
+      if(n2 % 2 == 0){
+        int tmp = n2 / 2;
+        n2 -= tmp;
+        n1 += tmp;
+      }
+      else{
+        int tmp = n2 / 2 + 1;
+        n2 -= tmp;
+        n1 += tmp;
+      }
+    }
+    //홀수 날 일때
+    else{
+      if(n1 % 2 == 0){
+        int tmp = n1 / 2;
+        n1 -= tmp;
+        n2 += tmp;
+      }
+      else{
+        int tmp = n1 / 2 + 1;
+        n1 -= tmp;
+        n2 += tmp;
+      }
+    }
+  cnt++;
+  }
+  cout << n1 << " " << n2 << '\n';
+}
