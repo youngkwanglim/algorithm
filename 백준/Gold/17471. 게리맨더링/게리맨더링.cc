@@ -33,7 +33,7 @@ int main(){
     for(int i = 1; i < (1 << n) - 1; i++){
         fill(comp, comp + 14, 0);
         fill(visited, visited + 14, 0);
-        int idx1 = -1, idx2 = -1;
+        int idx1 = 0, idx2 = 0;
         for(int j = 0; j < n; j++){
             if(i & (1 << j)) {comp[j + 1] = 1; idx1 = j + 1;}
             else idx2 = j + 1;
