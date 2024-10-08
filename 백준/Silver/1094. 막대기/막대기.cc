@@ -5,7 +5,7 @@ int main(){
     ios_base::sync_with_stdio(false); cin.tie(NULL); cin.tie(NULL);
     cin >> n;
     while(n > 0){
-        if(n % 2) ret++;
+        if(n & 1) ret++;
         n /= 2;
     }
     cout << ret << '\n';
