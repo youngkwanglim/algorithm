@@ -1,11 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
-int x, tmp, ret;
+int n, ret;
 int main(){
-    ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-    cin >> x;
-    for(int i = 6; i >= 0; i--){
-        if(((1 << i) & x) == (1 << i)) ret++;
+    ios_base::sync_with_stdio(false); cin.tie(NULL); cin.tie(NULL);
+    cin >> n;
+    while(n > 0){
+        if(n % 2) ret++;
+        n /= 2;
     }
     cout << ret << '\n';
 }
