@@ -1,33 +1,24 @@
 #include<bits/stdc++.h>
 using namespace std;
-string p, s2, s;
-int t, n, flag, error, rev;
-//vector<string> num;
-deque<string> d;
-deque<string> split(string input, string delimiter) {
-    deque<string> result;
-    auto start = 0;
-    auto end = input.find(delimiter);
-    while (end != string::npos) {
-        result.push_back(input.substr(start, end - start));
-        start = end + delimiter.size();
-        end = input.find(delimiter, start);
-    }
-    result.push_back(input.substr(start));
-    return result;
-}
+string p, s;
+int t, n, error, rev;
 int main(){
     ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
     cin >> t;
     while(t--){
+        deque<int> d;
         cin >> p >> n >> s; // [1,2,3,4]
-        if(n == 0){
-            d.clear();
+        int x = 0;
+        for(char c : s){
+            if(c == '[' || c == ']') continue;
+            if(c >= '0' && c <= '9') x = x * 10 + c - '0';
+            else{
+                d.push_back(x);
+                x = 0;
+            }
         }
-        else{
-            s2 = s.substr(1, s.size() - 2); // 1,2,3,4
-            d = split(s2, ","); // 1 2 3 4        
-        }
+        if(x > 0) d.push_back(x);
+
         error = 0; rev = 0;
         for(char c : p){
             if(c == 'R') rev = !rev;
