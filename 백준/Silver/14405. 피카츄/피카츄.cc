@@ -7,52 +7,10 @@ int main(){
     // 문자열 입력
     cin >> s;
     // pi ka chu만 들어가 있어야됨.
-    for(int i = 0; i < s.size();){
-        //cout << "i : " << i << '\n';
-        if(s[i] == 'p'){
-            i++;
-            if(i< s.size() && s[i] == 'i'){
-                i++;
-                continue;
-            }
-            else{
-                flag = 1;
-                break;
-            }
-        }
-        else if(s[i] == 'k'){
-            i++;
-            if(i< s.size() && s[i] == 'a'){
-                i++;
-                continue;
-            }
-            else{
-                flag = 1;
-                break;
-            }
-        }
-        else if(s[i] == 'c'){
-            i++;
-            if(i< s.size() && s[i] == 'h'){
-                i++;
-                if(i< s.size() && s[i] == 'u'){
-                    i++;
-                    continue;
-                }
-                else{
-                    flag = 1;
-                    break;
-                }
-            }
-            else{
-                flag = 1;
-                break;
-            }
-        }
-        else{
-            flag = 1;
-            break;
-        }
+    for(int i = 0; i < s.size(); i++){
+        if(i < s.size() - 1 && (s.substr(i,2) == "pi" || s.substr(i, 2) == "ka")) i += 1;
+        else if(i < s.size() - 2 && (s.substr(i,3) == "chu")) i += 2;
+        else {flag = 1; break;}
     }
 
     if(flag) cout << "NO" << '\n';
