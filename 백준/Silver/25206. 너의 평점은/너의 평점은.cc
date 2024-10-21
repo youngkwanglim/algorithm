@@ -22,6 +22,6 @@ int main(){
         else if(score == "F") sum += cnt * 0.0 ;
     }
 
-    if(a) cout << sum / a << '\n';
-    else cout << "0.000000" << '\n';
+    cout << fixed << setprecision(6);
+    cout << sum / a << '\n';
 }
