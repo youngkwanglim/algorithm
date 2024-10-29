@@ -15,9 +15,8 @@ int main(){
     }
     while(m--){
         cin >> a;
-        if(m1.find(a) != m1.end()) cnt++;
-        m2[a]++;
+        if(m1[a] == 1) m1.erase(a);
     }
     // cout << "cnt : " << cnt << '\n';
-    cout << m1.size() + m2.size() - (2 * cnt) << '\n';
+    cout << m1.size() << '\n';
 }
