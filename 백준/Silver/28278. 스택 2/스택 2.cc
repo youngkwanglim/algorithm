@@ -13,7 +13,7 @@ int main(){
             st.push(tmp);
         }
         else if(m == 2){
-            if(st.size() != 0 && st.top()) {
+            if(st.size() != 0) {
                 cout << st.top() << '\n'; 
                 st.pop();
             }
@@ -27,7 +27,7 @@ int main(){
             else cout << 0 << '\n';
         }
         else{
-            if(st.size() != 0 && st.top()) {
+            if(st.size() != 0) {
                 cout << st.top() << '\n'; 
             }
             else cout << -1 << '\n';
