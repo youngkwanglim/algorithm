@@ -38,7 +38,7 @@ int main(){
                 tmp += v[j + k];
                 //cout << tmp << '\n';
             }
-            if(j == 0 & tmp > n){
+            if(j == 0 && tmp > n){
                 flag = 1;
                 break;
             }
