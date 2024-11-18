@@ -19,7 +19,7 @@ int main(){
     while(true){
         if(start == e) break;
 
-        if(v[start] + v[e] == x) {ret++; start++;}
+        if(v[start] + v[e] == x) {ret++; e--;}
         else if(v[start] + v[e] < x) start++;
         else e--;
     }
