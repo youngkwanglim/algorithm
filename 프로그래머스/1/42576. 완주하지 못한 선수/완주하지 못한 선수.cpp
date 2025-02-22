@@ -6,7 +6,10 @@ map<string, int> m;
 string solution(vector<string> participant, vector<string> completion) {
     string answer = "";
     for(string p : participant){
-        m[p]++;
+        if(m.find(p) == m.end()){
+            m[p] = 1;
+        }
+        else m[p]++;
     }
     
     for(string c : completion){
