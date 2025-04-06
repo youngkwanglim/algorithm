@@ -16,8 +16,7 @@ int main(){
     //     cout << a << " , " << b << '\n';
     // }
     for(auto it : v){
-        a = it.first;
-        b = it.second;
+        tie(a, b) = it;
         if(last > a) a = last;
         int tmp = (b - a) / l;
         if((b - a) % l > 0) tmp += 1;
