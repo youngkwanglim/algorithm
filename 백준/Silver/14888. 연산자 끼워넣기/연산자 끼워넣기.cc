@@ -1,25 +1,24 @@
 #include<bits/stdc++.h>
 using namespace std;
-int n, a[13], ret_max = -1987654321, ret_min = 1987654321, plu, minu, mult, divi;
-void go(int idx, int cur, int plu, int minu, int mult, int divi){
-    if(idx == n - 1){
-        ret_max = max(cur, ret_max);
-        ret_min = min(cur, ret_min);
+int n, num[14], a, b, c, d, _max = -1000000000, _min = 1000000000;
+void go(int cnt, int tmp, int a, int b, int c, int d){
+    if(cnt == n - 1){
+        _max = max(tmp, _max);
+        _min = min(tmp, _min);
+        return;
     }
-
-    if(plu) go(idx + 1, cur + a[idx + 1], plu - 1, minu, mult, divi);
-    if(minu) go(idx + 1, cur - a[idx + 1], plu, minu - 1, mult, divi);
-    if(mult) go(idx + 1, cur * a[idx + 1], plu, minu, mult - 1, divi);
-    if(divi) go(idx + 1, cur / a[idx + 1], plu, minu, mult, divi - 1);
+    if(a) go(cnt + 1, tmp + num[cnt + 1], a - 1, b, c, d);
+    if(b) go(cnt + 1, tmp - num[cnt + 1], a, b - 1, c, d);
+    if(c) go(cnt + 1, tmp * num[cnt + 1], a, b, c - 1, d);
+    if(d) go(cnt + 1, tmp / num[cnt + 1], a, b, c, d - 1);
 }
-
 int main(){
     ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
     cin >> n;
     for(int i = 0; i < n; i++){
-        cin >> a[i];
+        cin >> num[i];
     }
-    cin >> plu >> minu >> mult >> divi;
-    go(0, a[0], plu, minu, mult, divi);
-    cout << ret_max << '\n' << ret_min;
+    cin >> a >> b >> c >> d;
+    go(0, num[0], a, b, c, d);
+    cout << _max << '\n' << _min << '\n';
 }
